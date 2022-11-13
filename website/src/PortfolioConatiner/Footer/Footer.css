@@ -25,7 +25,12 @@
   }
   .btn-scroll:hover {
     transform: rotate(360deg);
-    color: aliceblue;
+    -ms-transform: rotate(360deg);
+    transition: all 0.3s;
+  }
+  .btn-scroll:active{
+    background: #fff;
+    border: none;
   }
   
   .btn-scroll i {
