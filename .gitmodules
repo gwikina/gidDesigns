@@ -1,0 +1,3 @@
+[submodule "gidDesigns"]
+	path = gidDesigns
+	url = https://github.com/gwikina/gidDesigns.git
