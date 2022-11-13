@@ -1,0 +1,86 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    color: var(--black);
+}
+.header-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 70%;
+    color: var(--black);
+}
+.header-logo{
+    font-size: 50px;
+    font-family: 'Architects Daughter';
+}
+.header-options{
+    display: flex;
+    align-items: center;
+}
+.header-option{
+   font-size: 16px;
+   cursor: pointer;
+   font-weight: 600;
+}
+.header-option-separator{
+    margin: 0 50px 0 0;
+}
+.header-hamburger{
+    display: none;
+}
+.selected-header-option{
+    color: var(--primary);
+}
+@media screen and (max-width: 110px){
+    .header-parent{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 970px){
+    .header-hamburger{
+        display: block;
+    }
+    .header-parent{
+        width: 100%;
+        padding: 0 40px;
+        position: relative;
+    }
+    .header-options{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: -100%;
+        top: 0px;
+        height: 100vh;
+        width: 100%;
+        justify-content: space-around;
+        background-color: #f2f2f2;
+        z-index: 1000;
+        opacity: 0.5;
+        transition: all 0.8s ease-out;
+    }
+    .header-option-separator{
+        margin: 0;
+    }
+    .selected-header-option{
+        color: var(--black);
+    }
+    .header-hamburger-bars{
+        font-size: 30px ;
+        cursor: pointer;
+        margin: 0 10px;
+    }
+    .show-hamburger-options{
+        left: 0;
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 810px){
+   
+}
+@media screen and (max-width: 375px){
+    
+}

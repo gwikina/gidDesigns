@@ -1,0 +1,40 @@
+.main-container {
+    min-height: 100vh;
+    /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
+  
+    margin: 100px 0 -450px 0;
+    padding: 5%;
+  }
+  
+.sticker-area{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sticker-area img{
+  width: 200px;
+  height: 200px;
+  margin-right: 1rem;
+}
+.sticker-area img:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+  .main-container{
+    margin-bottom: 15%;
+  }
+  .sticker-area{
+    display: block;
+  }
+  .sticker-area img{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    margin-left: 25% ;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+}
