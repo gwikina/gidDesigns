@@ -7,7 +7,14 @@
     margin: 120px 0;
 
   }
-  
+  #secondary-handles{
+    width: 15em;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-left: 30%;
+
+  }
   .resume-card {
     display: flex;
     height: 420px;

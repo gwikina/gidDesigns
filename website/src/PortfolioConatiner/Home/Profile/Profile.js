@@ -37,7 +37,7 @@ export default function Profile() {
                             />
                         </h1>
                         <span className="profile-role-tagline">
-                            Just a simple man trying to make his way into tech
+                            Transforming complex problems into elegant solutions 
                         </span>
                     </span>
                 </div>

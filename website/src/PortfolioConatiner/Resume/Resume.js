@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Resume.css'
+import sh from '../../assets/Resume/secondaryhandles.png'
 import ScrollService from '../../utilities/ScrollService'
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
 import Animations from '../../utilities/Animations'
@@ -38,7 +39,9 @@ export default function Resume(props) {
                     <span> {props.subHeading? props.subHeading : ''}</span>
                 </div>
                 <div className="resume-heading-description">
-                    <p> {props.description? props.description : ""} </p>
+                    <p> {props.description? props.description : ""} 
+                    {props.image? <img src={sh} id="secondary-handles"/>: '' } 
+                    </p>
                     <p> {props.utilized? `Utilized: ${props.utilized}`: '' } </p>
                 </div>
             </div>
@@ -66,45 +69,19 @@ export default function Resume(props) {
 
     const projectDetails = [
         {
-            title: 'Anthems — Website / Hackathon Project', 
+            title: 'No Access To Primary Email - Secondary Handles', 
             duration: {
-                fromDate: "NOV 2020" , 
-                toDate: "NOV 2020"
+                fromDate: "SEP 2022" , 
+                toDate: "DEC 2022"
             },
             details:
             {
-                desc: `
-                Placed BEST OVERALL in MATAHack's 48 hour virtual hackathon for designing a platform that highlights the best new music and upcoming artists 
-                in Hip Hop.`,
-                utilized: 'Dynamic HTML, CSS, Javascript, Cloudflare API, Git, and Jquery ',
+                desc: `LinkedIn users can now regain access to their accounts using a secondary email and phone-number. 
+                Say goodbye to the long and inefficient manual reviews that were used when you lost access to your primary email 
+                and tried to reset your password! This innovative solution paves the way for a quick and seamless process`,
+                image: true, 
                 link: "https://gwikina.github.io/Anthems/"
             },
-        },
-        {
-            title: 'HelloMyNameIs', 
-            duration: {
-                fromDate: "SEP 2021" , 
-                toDate: "SEP 2021"
-            },
-            details:
-                {
-                    desc: `Generated random profiles for random people using the random user generator api.`,
-                    utilized: 'React, Random-user-generator-api, CSS, Git ',
-                    link: "https://gwikina.github.io/HelloMyNameIs/"
-                },
-        },
-        {
-            title: 'Grid World - Python & Reinforcement Learning', 
-            duration: {
-                fromDate: "MAR 2022" , 
-                toDate: "MAR 2022"
-            },
-            details:
-                {
-                    desc: `Implemented Grid-world domain that we learned in class using the environmental dynamics to shape learning`,
-                    utilized: 'Python3, NumPy, Reinforcement Learning, Gridworld, Object-oriented programming',
-                    link: "https://gwikina.github.io/HelloMyNameIs/"
-                },
         },
     ]
 
@@ -126,26 +103,28 @@ export default function Resume(props) {
         <div className="resume-screen-container" key="work-experience">
             <div className="experience-container">
                 <ResumeHeading 
-                    heading = {"American Express"}
-                    subHeading = {"Software Engineering Intern"}
-                    fromDate = {'JUN 2022'}
-                    toDate= {"AUG 2022"}
+                    heading = {"Linkedin"}
+                    subHeading = {"UI Engineering Intern"}
+                    fromDate = {'SEP 2022'}
+                    toDate= {"DEC 2022"}
                 />
                 <div className="experience-description">
                     <span className="resume-description-text">
-                    · Abstracted complicated business flows by using React to displaying them as interactive flow diagrams
+                    Manual reviews for password reset were inefficient for companies of large scale due to high cost and likelihood of human error.
+                    Designed system to limit the number of manual reviews where users do not have access to their primary email, with goal of 
+                    retaining active users and cutting unnecessary costs.
                     </span>
                     <br />
                     <span className="resume-description-text">
-                    · Sped up development time by over 50% by implementing an interactive front-end that updates json
+                    • Analyzed alternative self-serve recovery options for regaining access to a user’s account
                     </span>
                     <br />
                     <span className="resume-description-text">
-                    · Automated the creation of business diagrams by using Java to convert json files into XML
+                    • Designed a new user experience where secondary handles can be used for password reset
                     </span>
                     <br />
                     <span className="resume-description-text">
-                    · Relieved engineering effort by allowing end-users to make updates opposed to json updates by engineers
+                    • Implemented solution that would reduce the ID verification case volume by 20%
                     </span>
                     <br />
                 </div>
@@ -177,6 +156,7 @@ export default function Resume(props) {
         utilized={detail.details.utilized}
         fromDate={detail.duration.fromDate}
         toDate={detail.duration.toDate}
+        image={detail.details.image}
       />
     ))}
   </div>
