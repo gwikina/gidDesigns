@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/gidDesigns/static/css/main.ab993389.css",
-    "main.js": "/gidDesigns/static/js/main.900b030c.js",
+    "main.css": "/gidDesigns/static/css/main.970ccca6.css",
+    "main.js": "/gidDesigns/static/js/main.55f6b695.js",
     "static/js/787.71e672d5.chunk.js": "/gidDesigns/static/js/787.71e672d5.chunk.js",
     "static/media/mailz.jpeg": "/gidDesigns/static/media/mailz.c72a07d5543753cc0a68.jpeg",
     "static/media/about-me.jpeg": "/gidDesigns/static/media/about-me.a15b02fe6a96f6d1f2f3.jpeg",
     "static/media/rit.png": "/gidDesigns/static/media/rit.70ccde3787ea7ca03c20.png",
     "static/media/Poppins-Thin.ttf": "/gidDesigns/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
-    "static/media/profile.jpeg": "/gidDesigns/static/media/profile.b7c6ef0a96485e6d13fa.jpeg",
     "static/media/Poppins-Light.ttf": "/gidDesigns/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
     "static/media/Poppins-Regular.ttf": "/gidDesigns/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
     "static/media/Poppins-Medium.ttf": "/gidDesigns/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
     "static/media/Poppins-SemiBold.ttf": "/gidDesigns/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "static/media/Poppins-Bold.ttf": "/gidDesigns/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/gidDesigns/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
-    "static/media/Wikina_Gideon_Resume.pdf": "/gidDesigns/static/media/Wikina_Gideon_Resume.bf77deb7d7373c9a42a6.pdf",
+    "static/media/secondaryhandles.png": "/gidDesigns/static/media/secondaryhandles.9eca00df8744fbafb5f3.png",
     "static/media/linkedin.png": "/gidDesigns/static/media/linkedin.ee51856dd542b9673655.png",
+    "static/media/Wikina_Gideon_Resume.pdf": "/gidDesigns/static/media/Wikina_Gideon_Resume.6c4ec3c677cbffb62f10.pdf",
     "static/media/cfa.png": "/gidDesigns/static/media/cfa.761f4c3d5f88026ca622.png",
     "static/media/amex.png": "/gidDesigns/static/media/amex.bde19db634b51fc51cd6.png",
+    "static/media/profile.jpeg": "/gidDesigns/static/media/profile.de1f5536abe354bb7cec.jpeg",
     "index.html": "/gidDesigns/index.html",
-    "main.ab993389.css.map": "/gidDesigns/static/css/main.ab993389.css.map",
-    "main.900b030c.js.map": "/gidDesigns/static/js/main.900b030c.js.map",
+    "main.970ccca6.css.map": "/gidDesigns/static/css/main.970ccca6.css.map",
+    "main.55f6b695.js.map": "/gidDesigns/static/js/main.55f6b695.js.map",
     "787.71e672d5.chunk.js.map": "/gidDesigns/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab993389.css",
-    "static/js/main.900b030c.js"
+    "static/css/main.970ccca6.css",
+    "static/js/main.55f6b695.js"
   ]
 }

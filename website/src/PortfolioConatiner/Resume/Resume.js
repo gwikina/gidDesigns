@@ -80,7 +80,7 @@ export default function Resume(props) {
                 Say goodbye to the long and inefficient manual reviews that were used when you lost access to your primary email 
                 and tried to reset your password! This innovative solution paves the way for a quick and seamless process`,
                 image: true, 
-                link: "https://gwikina.github.io/Anthems/"
+                link: "https://www.linkedin.com/checkpoint/rp/request-password-reset?trk=guest_homepage-basic_nav-header-signin"
             },
         },
     ]
