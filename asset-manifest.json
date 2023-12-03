@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gidDesigns/static/css/main.970ccca6.css",
-    "main.js": "/gidDesigns/static/js/main.c52b4118.js",
+    "main.js": "/gidDesigns/static/js/main.5525973c.js",
     "static/js/787.71e672d5.chunk.js": "/gidDesigns/static/js/787.71e672d5.chunk.js",
     "static/media/mailz.jpeg": "/gidDesigns/static/media/mailz.c72a07d5543753cc0a68.jpeg",
     "static/media/about-me.jpeg": "/gidDesigns/static/media/about-me.a15b02fe6a96f6d1f2f3.jpeg",
@@ -13,19 +13,20 @@
     "static/media/Poppins-SemiBold.ttf": "/gidDesigns/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "static/media/Poppins-Bold.ttf": "/gidDesigns/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/gidDesigns/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/Wikina_Gideon_Resume.pdf": "/gidDesigns/static/media/Wikina_Gideon_Resume.bdd95334f20d637dce85.pdf",
     "static/media/secondaryhandles.png": "/gidDesigns/static/media/secondaryhandles.9eca00df8744fbafb5f3.png",
     "static/media/linkedin.png": "/gidDesigns/static/media/linkedin.ee51856dd542b9673655.png",
-    "static/media/Wikina_Gideon_Resume.pdf": "/gidDesigns/static/media/Wikina_Gideon_Resume.6c4ec3c677cbffb62f10.pdf",
+    "static/media/F5.png": "/gidDesigns/static/media/F5.f6050c21996cd9b846cc.png",
     "static/media/cfa.png": "/gidDesigns/static/media/cfa.761f4c3d5f88026ca622.png",
     "static/media/amex.png": "/gidDesigns/static/media/amex.bde19db634b51fc51cd6.png",
     "static/media/profile.jpeg": "/gidDesigns/static/media/profile.de1f5536abe354bb7cec.jpeg",
     "index.html": "/gidDesigns/index.html",
     "main.970ccca6.css.map": "/gidDesigns/static/css/main.970ccca6.css.map",
-    "main.c52b4118.js.map": "/gidDesigns/static/js/main.c52b4118.js.map",
+    "main.5525973c.js.map": "/gidDesigns/static/js/main.5525973c.js.map",
     "787.71e672d5.chunk.js.map": "/gidDesigns/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.970ccca6.css",
-    "static/js/main.c52b4118.js"
+    "static/js/main.5525973c.js"
   ]
 }
